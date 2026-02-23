@@ -1,0 +1,11 @@
+services:
+  ipscope:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ipscope
+    restart: unless-stopped
+    ports:
+      - "9201:9201"
+    volumes:
+      - ./config.yml:/app/config.yml:ro

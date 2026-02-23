@@ -1,0 +1,8 @@
+.git
+.gitignore
+.DS_Store
+config.yml
+tmp/
+dist/
+bin/
+*.log
