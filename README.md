@@ -60,9 +60,7 @@ Metrics endpoint:
 
 ## Exported Metrics
 
-- `<prefix>_node_datacenter_info{node,endpoint,datacenter,city,region,country}`
-- `<prefix>_node_datacenter_latitude{node,endpoint,datacenter}`
-- `<prefix>_node_datacenter_longitude{node,endpoint,datacenter}`
+- `<prefix>_node_datacenter_info{node,endpoint,datacenter,city,region,country,latitude,longitude}`
 - `<prefix>_node_datacenter_lookup_error{node,endpoint}` (1 = error, 0 = success)
 
 ## Notes
